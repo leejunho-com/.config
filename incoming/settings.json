@@ -1,0 +1,20 @@
+{
+"version":"0.00.1",
+
+"src_dir_path":"~/demo/input", 
+"dst_dir_path":"~/demo/output",
+"default_preset_path":".config/incoming/config/ic-preset/ic_preset.json",
+"open_dst_dir_when_done":false,
+
+"logging":{
+    "create_log_dst_dir_toggle":true,
+    "log_filename":"incoming.log",
+    "custom_log_file_path":""
+},
+"output_filename_appending":{
+    "prefix_toggle":false,
+    "prefix":"",
+    "suffix_toggle":false,
+    "suffix":""
+}
+}
