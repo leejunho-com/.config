@@ -8,7 +8,7 @@ export BLACK=0xff000000
 export NONE=0x00000000 # opacity 0%
 export AERO_0=0x3f000000
 export AERO_1=0x50ffffff
-export SELECT=0xffffb472
+export SELECT=0xffff5a00
 
 export BAR_COLOR=$NONE
 export ITEM_BG_COLOR=$AERO_0
