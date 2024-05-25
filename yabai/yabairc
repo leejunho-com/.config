@@ -70,3 +70,6 @@ yabai -m config external_bar all:32:0
 
 # In yabai v6.0.12+ you can also completely disable the menubar using yabai -m config menubar_opacity 0.0regardless this setting.
 #yabai -m config menubar_opacity 0.8
+
+# window animations
+yabai -m config window_animation_duration 0.2
