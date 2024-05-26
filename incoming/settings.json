@@ -1,9 +1,9 @@
 {
 "version":"0.00.1",
 
-"src_dir_path":"~/demo/input", 
-"dst_dir_path":"~/demo/output",
-"default_preset_path":".config/incoming/config/ic-preset/ic_preset.json",
+"src_dir_path":"/Users/leejunho/demo/input", 
+"dst_dir_path":"/Users/leejunho/demo/output",
+"default_preset_path":".config/incoming/preset/preset.json",
 "open_dst_dir_when_done":false,
 
 "logging":{

@@ -1,6 +1,4 @@
  {
-"process_hidden_files_toggle":true,
-
 "filterd_all_ext_dict":{
 "filtered_video_ext_dict":[".asf", ".avi", ".flv", ".mkv", ".mov", ".mp4", ".mpeg", ".ts", ".webm", ".wmv", ".m4v", ".mpg", ".ts", ".mts", ".m2ts", ".vob", ".evo"], 
 "filtered_image_ext_dict":[".jpg",".jpeg",".png",".bmp",".tiff",".tif"]
@@ -14,37 +12,13 @@
     "output_video_ext":".mp4",
     "ffmpeg":{
         "use_ffmpeg_toggle":false,
-
-        "custom_batch_command_input_toggle":false,
-
-        "-y":false,
-        "-i":null,
-
-        "-ss":"",
-        "-t":"",
-        "-vcodec_copy":false,
-        "-acodec_copy":false,
-        "-acodec":"",
-        "-ab":"",
-        "-ar":"",
-        "-ac":"",
-        "-b:a":"",
-        "-vcodec":"libx264",
-        "-level":"",
-        "-b:v":"",
-        "-r":"",
-        "-s":"",
-        "-strict":"",
-
-        "output_ext":".mp4"
+        "custom_batch_command_input_toggle":false
     }
-
 },
 "image_process":{
     "image_process_toggle":true,
     "output_ext":".jpg",
     "output_quality":85,
-    "assign_untagged_icc_profile_to_sRGB":true,
     "remove_all_exif_data":false,
     "remove_only_gps_exif_data":false
 },
