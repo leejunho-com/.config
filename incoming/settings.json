@@ -1,8 +1,8 @@
 {
 "version":"0.00.1",
 
-"src_dir_path":"/Users/leejunho/demo/input", 
-"dst_dir_path":"/Users/leejunho/demo/output",
+"src_dir_path":"/Volumes/dock/incoming/-i", 
+"dst_dir_path":"/Volumes/dock/incoming/-o",
 "default_preset_path":".config/incoming/preset/preset.json",
 "open_dst_dir_when_done":false,
 
