@@ -46,5 +46,8 @@ eval "$(pyenv init -)"
 # (temp)incoming!
 alias ic='/Users/leejunho/git/incoming/dist/incoming/incoming'
 
-#fzf
+# fzf
 source <(fzf --zsh)
+
+# tmux unicode
+alias tmux='tmux -u'
