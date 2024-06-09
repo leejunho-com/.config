@@ -18,7 +18,7 @@
 "image_process":{
     "image_process_toggle":true,
     "output_ext":".jpg",
-    "output_quality":85,
+    "output_quality":50,
     "remove_all_exif_data":false,
     "remove_only_gps_exif_data":false
 },
