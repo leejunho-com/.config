@@ -43,11 +43,14 @@ eval "$(pyenv init -)"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# (temp)incoming!
-alias ic='/Users/leejunho/git/incoming/dist/incoming/incoming'
-
 # fzf
 source <(fzf --zsh)
 
 # tmux unicode
 alias tmux='tmux -u'
+
+# GitHub Copilot alias
+eval "$(gh copilot alias -- zsh)"
+
+# (tmep)incomnig
+alias ic="/Users/leejunho/git/incoming/dist/incoming"
