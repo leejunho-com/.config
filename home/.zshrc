@@ -10,7 +10,7 @@ fi
 
 plugins=(git)
 
-# ==CUSTOM==
+# ======================= ENV =======================
 
 #p10k
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
@@ -48,9 +48,12 @@ source <(fzf --zsh)
 
 # tmux unicode
 alias tmux='tmux -u'
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-# GitHub Copilot alias
-eval "$(gh copilot alias -- zsh)"
+# ======================= CUSTOM =======================
 
-# (tmep)incomnig
-alias ic="/Users/leejunho/git/incoming/dist/incoming"
+# safari
+alias safari='open -a Safari'
+
+# (temp)incoming
+alias ic='/Users/leejunho/git/incoming/dist/incoming/incoming'
