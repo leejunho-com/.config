@@ -56,4 +56,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 alias safari='open -a Safari'
 
 # (temp)incoming
-alias ic='/Users/leejunho/git/incoming/dist/incoming/incoming'
+alias ic='/Users/leejunho/git/incoming/dist/incoming'
