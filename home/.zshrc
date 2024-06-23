@@ -50,10 +50,20 @@ source <(fzf --zsh)
 alias tmux='tmux -u'
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# yazi
+function yy() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
 # ======================= CUSTOM =======================
 
 # safari
 alias safari='open -a Safari'
 
 # (temp)incoming
-alias ic='/Users/leejunho/git/incoming/dist/incoming'
+#alias ic='cd ~/git/incoming && python3 -m incoming.main'
