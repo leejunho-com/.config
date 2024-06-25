@@ -87,9 +87,9 @@
       "PictureTopCrop" : 0,
       "PictureUseMaximumSize" : true,
       "PictureWidth" : 0,
-      "PresetDescription" : "23-07-09",
+      "PresetDescription" : "24-06-25 update",
       "PresetDisabled" : false,
-      "PresetName" : "hb-p",
+      "PresetName" : "incoming",
       "SubtitleAddCC" : false,
       "SubtitleAddForeignAudioSearch" : false,
       "SubtitleAddForeignAudioSubtitle" : false,
@@ -99,9 +99,10 @@
       "SubtitleLanguageList" : [
         "kor",
         "eng",
-        "jpn"
+        "jpn",
+        "und"
       ],
-      "SubtitleTrackSelectionBehavior" : "none",
+      "SubtitleTrackSelectionBehavior" : "all",
       "Type" : 1,
       "UsesPictureFilters" : true,
       "VideoAvgBitrate" : 6000,
